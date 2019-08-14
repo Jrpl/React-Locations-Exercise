@@ -1,0 +1,19 @@
+.location-grid {
+    display: grid;
+    grid-template-columns: 384px 384px 384px;
+    grid-template-rows: 82px 82px 82px;
+    grid-row-gap: 24px;
+    justify-content: center;
+    justify-items: stretch;
+    align-items: stretch;
+    padding: 0 24px;
+}
+
+.location-select-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    padding: 16px;
+    font-family: Roboto, sans-serif;
+}
