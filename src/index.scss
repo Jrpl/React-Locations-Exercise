@@ -1,12 +1,31 @@
 .location-grid {
-    display: grid;
-    grid-template-columns: 384px 384px 384px;
-    grid-template-rows: 82px 82px 82px;
-    grid-row-gap: 24px;
+    display: flex;
     justify-content: center;
-    justify-items: stretch;
-    align-items: stretch;
     padding: 0 24px;
+}
+
+.location-card-container {
+    display: flex;
+    flex: 0 1 1152px;
+    flex-flow: wrap;
+    overflow-y: scroll;
+}
+
+.input {
+    font-size: 16px;
+    line-height: 24px;
+    height: 30px;
+    display: inline-block;
+    position: relative;
+    background-color: transparent;
+    font-family: Roboto, sans-serif;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom: 1px solid rgb(224, 224, 224);
+    box-sizing: content-box;
+    padding-top: 10px;
+    margin: 0px;
 }
 
 .location-select-header {
