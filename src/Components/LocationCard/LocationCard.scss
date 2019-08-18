@@ -1,15 +1,18 @@
 .location-card {
-    align-self: stretch;
     border-left: 2px solid #49aaca;
-    flex: 1 1;
-    min-width: 275px;
-    max-width: 355px;
+    margin: 12px 0;
+    height: 79px;
+    width: 355px;
+}
+
+div.location-card:hover * {
+    background-color:#49aaca;
+    color:white;
 }
 
 .location-header {
     padding: 14px 14px 0 14px;
     font-family: Roboto;
-    font-weight: 500;
     font-size: 20px;
     color:#454545;
     text-transform: uppercase;
@@ -19,32 +22,19 @@
     display: flex;
     padding: 0px 14px 14px 14px;
     align-items: center;
-    font-family: Roboto;
-    font-size: 14px;
-    color:#333;
 }
 
 .location-text {
     font-family: Roboto;
     font-size: 12px;
-    font-weight: 400;
     color:#a3a3a3;
 }
 
-.material-icons {
+.location-icon {
     font-family: 'Material Icons';
     color:#a3a3a3;
     padding-right: 5px;
-    font-weight: normal;
     font-style: normal;
     font-size: 24px;
     line-height: 1;
-    letter-spacing: normal;
-    text-transform: none;
-    display: inline-block;
-    white-space: nowrap;
-    word-wrap: normal;
-    direction: ltr;
-    font-feature-settings: 'liga';
-    -webkit-font-smoothing: antialiased;
-  }
+}
