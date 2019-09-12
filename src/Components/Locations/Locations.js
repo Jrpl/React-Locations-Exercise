@@ -10,7 +10,7 @@ const Locations = () => {
             const response = await axios.get(`locations.json`);
             setLocations(response.data.filter(filterNames));
         })();
-    });
+    }, []);
 
     const filterNames = obj => (!(obj.name.includes("A5C") || obj.name.includes("Q5")));
 
