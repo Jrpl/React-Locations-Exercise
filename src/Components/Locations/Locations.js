@@ -12,7 +12,7 @@ const Locations = () => {
         })();
     });
 
-    const filterNames = obj => (obj.name.includes("A5C") || obj.name.includes("Q5")) ? false : true;
+    const filterNames = obj => (!(obj.name.includes("A5C") || obj.name.includes("Q5")));
 
     return (
         locations.map((location) => <LocationCard location = {location} key={location.id} />)
