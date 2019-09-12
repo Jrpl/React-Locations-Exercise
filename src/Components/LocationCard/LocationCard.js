@@ -28,7 +28,7 @@ const LocationCard = props => {
             </div>
         </div>
     );
-}
+};
 
 LocationCard.propTypes = { 
     location: PropTypes.shape({
@@ -38,6 +38,6 @@ LocationCard.propTypes = {
       airport_code: PropTypes.string,
       description: PropTypes.string.isRequired
     })
-}
+};
 
 export default LocationCard;

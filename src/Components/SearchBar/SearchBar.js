@@ -6,11 +6,11 @@ const SearchBar = () => {
 
     const onInputChange = event => {
         setSearchTerm(event.target.value);
-    }
+    };
 
     const inputStyle = {
         width: '256px'
-    }
+    };
 
     return (
         <div className="gray-bar">
@@ -24,6 +24,6 @@ const SearchBar = () => {
             />
         </div>
     );
-}
+};
 
 export default SearchBar;
